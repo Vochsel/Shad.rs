@@ -2,9 +2,10 @@
   "name"          : "shad.rs",
   "version"       : "0.0.1",
   "description"   : "Simple util for generating fragment shader graphics",
-  "dependencies"  :
+  "devDependencies"  :
   {
-    "bower" : "1.8.0"
+    "browserify"  : "13.3.0",
+    "twgl.js"     : "2.7.0"
   },
   "scripts"       :
   {
