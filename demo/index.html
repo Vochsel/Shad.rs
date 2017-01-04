@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="../bin/shadrs.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/Vochsel/wutils/master/lib/wutils.min.js"></script>
+  </head>
+  <body>
+    <canvas id="viewer" width="1280" height="720"></canvas>
+    <script>
+      var canvas = wutils.dom.get("viewer");
+      shadrs.CreateViewer(canvas, "sinsphere.glsl");
+    </script>
+  </body>
+</html>
